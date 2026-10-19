@@ -1,0 +1,30 @@
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# 依赖与虚拟环境
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 本地配置与数据（别把密钥或患者数据传上来）
+.env
+.env.*
+!.env.example
+*.db
+*.sqlite
+data/
+uploads/
+logs/
+
+# 构建产物
+dist/
+build/
+_site/
+.jekyll-cache/

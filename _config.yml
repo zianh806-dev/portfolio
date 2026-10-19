@@ -1,0 +1,10 @@
+theme: jekyll-theme-cayman
+title: 作品集
+description: AI 应用开发 · RAG 检索优化 / Multi-Agent 编排
+
+# 让 projects/*.md 这类没有 front matter 的文件也能被渲染成页面，
+# 否则从 README 点进去的详情链接在 Pages 上会 404。
+plugins:
+  - jekyll-optional-front-matter
+
+show_downloads: false
